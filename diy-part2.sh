@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Navigate to the package directory
-cd ./openwrt/package
+cd package
 
 # Add custom packages by cloning the repositories
 git clone --depth=1 https://github.com/immortalwrt/luci luci
@@ -18,7 +18,7 @@ git clone --depth=1 https://github.com/gSpotx2f/luci-app-internet-detector.git l
 git clone --depth=1 https://github.com/4IceG/luci-app-irqbalance.git luci-app-irqbalance
 git clone --depth=1 https://github.com/xx-vv/quectel_cm_5G quectel_cm_5G 
 # Navigate to the openwrt directory to update and install feeds
-cd ./openwrt
+cd
 
 # Add new luci-app-openclash
 rm -rf feeds/luci/applications/luci-app-openclash
