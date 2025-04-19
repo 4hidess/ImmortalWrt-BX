@@ -78,6 +78,9 @@ jobs:
     - name: install buto
       run: cd openwrt && ./scripts/feeds install luci-base csstidy luasrcdiet
 
+    - name: install bash
+      run: cd openwrt && ./scripts/feeds install luci-base
+
     - name: Load custom configuration
       run: |
         [ -e files ] && mv files openwrt/files
