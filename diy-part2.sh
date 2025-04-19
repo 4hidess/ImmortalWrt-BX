@@ -25,15 +25,3 @@ mv /tmp/OpenClash/luci-app-openclash package/
 # Navigate to the openwrt directory to update and install feeds
 cd ./openwrt
 
-# Update and install feeds
-./scripts/feeds update -a
-./scripts/feeds install -a
-./scripts/feeds install -a -f -p modem-extras
-./scripts/feeds install -a -f -p modem 
-./scripts/feeds install luci-app-modemband
-./scripts/feeds install luci-app-modeminfo
-./scripts/feeds install -a -f -p irqbalance
-./scripts/feeds install luci-app-irqbalance
-./scripts/feeds install quectel_CM_5G_M
-./scripts/feeds install luci-app-telegrambot
-./scripts/feeds install luci-app-ttl
