@@ -16,12 +16,13 @@ git clone --depth=1 https://github.com/4IceG/luci-app-modemband.git luci-app-mod
 git clone --depth=1 https://github.com/4IceG/luci-app-sms-tool-js.git luci-app-sms-tool-js
 git clone --depth=1 https://github.com/gSpotx2f/luci-app-internet-detector.git luci-app-internet-detector
 git clone --depth=1 https://github.com/4IceG/luci-app-irqbalance.git luci-app-irqbalance
+# Navigate to the openwrt directory to update and install feeds
+cd ./openwrt
 
 # Add new luci-app-openclash
 rm -rf feeds/luci/applications/luci-app-openclash
 git clone -b dev --depth 1 https://github.com/vernesong/OpenClash.git /tmp/OpenClash
 mv /tmp/OpenClash/luci-app-openclash package/
 
-# Navigate to the openwrt directory to update and install feeds
-cd ./openwrt
+
 
