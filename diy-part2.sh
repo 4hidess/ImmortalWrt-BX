@@ -16,6 +16,7 @@ git clone --depth=1 https://github.com/4IceG/luci-app-modemband.git luci-app-mod
 git clone --depth=1 https://github.com/4IceG/luci-app-sms-tool-js.git luci-app-sms-tool-js
 git clone --depth=1 https://github.com/gSpotx2f/luci-app-internet-detector.git luci-app-internet-detector
 git clone --depth=1 https://github.com/4IceG/luci-app-irqbalance.git luci-app-irqbalance
+git clone --depth=1 https://github.com/xx-vv/quectel_cm_5G quectel_cm_5G 
 # Navigate to the openwrt directory to update and install feeds
 cd ./openwrt
 
